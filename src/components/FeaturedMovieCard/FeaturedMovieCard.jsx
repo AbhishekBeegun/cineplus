@@ -5,7 +5,7 @@ import IDBMsml from "../IDBM/IDBMsml"
 
 const FeaturedMovieCard = () => {
   return (
-    <div className="h-[250px] w-[95vw] rounded-xl relative border border-black">
+    <div className="h-[250px] w-[95vw] rounded-xl relative">
     <IDBMsml/>
     <FMCTop/>
     <FMCBottom/>

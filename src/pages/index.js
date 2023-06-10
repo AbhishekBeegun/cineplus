@@ -5,6 +5,7 @@ import FixedMenu from "@/components/Navbar/FixedMenu"
 import FeaturedMovieCard from "@/components/FeaturedMovieCard/FeaturedMovieCard"
 import FeaturedMovies from "@/components/Homepage/FeaturedMovies"
 import NowPlaying from "@/components/Homepage/NowPlaying"
+import ComingSoon from "@/components/Homepage/ComingSoon"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,7 +14,7 @@ export default function Home() {
   <>
 
   {/* navbar */}
-  <div className="border-b border-red-500">
+  <div className="">
   <NavbarMobile/>
   <FixedMenu/>
   </div>
@@ -21,6 +22,8 @@ export default function Home() {
   <FeaturedMovies/>
 
   <NowPlaying/>
+
+  <ComingSoon/>
 
   </>
   )
