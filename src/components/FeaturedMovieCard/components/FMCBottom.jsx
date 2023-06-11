@@ -1,10 +1,10 @@
 import React from 'react'
 
-const FMCBottom = () => {
+const FMCBottom = ({name}) => {
   return (
     <div className="w-full h-[50px] rounded-b-xl p-2 text-sm font-semibold">
         {/* title + year + first categorie */}
-        <p>Transformers : rise of the beast</p>
+        <p>{name}</p>
 
         <div className="flex items-center gap-2">
           <p>2023</p>

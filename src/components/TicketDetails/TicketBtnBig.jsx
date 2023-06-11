@@ -1,15 +1,19 @@
 import Link from "next/link"
 import React from 'react'
 import {IoTicketOutline} from "react-icons/io5"
+
+
 const TicketBtnBig = () => {
+
   return (
     <>
     <Link href={"to ticket details"}>
-    <button className="flex justify-center items-center gap-1 px-4 py-1 font-semibold text-red-100 rounded-full bg-gradient-to-r from-red-600 to-red-400">
+    <button className="flex justify-center items-center gap-1 px-4 py-1 font-semibold
+     text-white rounded-full bg-gradient-to-r from-orange-600 to-orange-400
+     hover:scale-110 transition-all ease-in-out">
     <IoTicketOutline /> 
     Tickets
     </button>        
-        
     </Link>
     </>
   )

@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-  <>
+  <div>
 
   {/* navbar */}
       <div className="">
@@ -34,6 +34,6 @@ export default function Home() {
 
   <Footer/>
 
-  </>
+  </div>
   )
 }

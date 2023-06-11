@@ -10,7 +10,7 @@ const Sidebar = ({OpenSidebar,setOpenSidebar}) => {
     <>
     {
       !OpenSidebar ?
-      <button className="text-xl" 
+      <button className="text-2xl" 
       onClick={() => ToggleSidebar() }>
         <IoMenu />
       </button> 

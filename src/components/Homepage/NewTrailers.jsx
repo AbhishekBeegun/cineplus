@@ -7,6 +7,24 @@ import NewTrailerCard from "../NewTrailers/NewTrailerCard";
 const NewTrailers = () => {
 
     const NTList = [1,2,3,4,5]
+
+    const FakeList = [
+        {"name" : "The Witcher S3",
+         "ytId":"SzS8Ao0H6Co"
+        },
+        {"name" : "Barbie",
+        "ytId":"pBk4NYhWNMM"
+       },
+       {"name" : "Expandables 4",
+       "ytId":"DhlaBO-SwVE"
+      },
+      {"name" : "Hidden Strike",
+      "ytId":"qNyzyzbX0wo"
+     },
+     {"name" : "MI7",
+     "ytId":"UHxUl8ZXItQ"
+    },
+    ]
   return (
     <>
           <div className="px-2 py-2">
@@ -14,7 +32,7 @@ const NewTrailers = () => {
               <p className="text-xl font-semibold py-2">New Trailers <IoArrowForward /></p>
               <Swiper
                   spaceBetween={5}
-                  slidesPerView={1.2}
+                  slidesPerView={1}
 
                   breakpoints={{
                       // when window width is >= 768px
@@ -24,11 +42,11 @@ const NewTrailers = () => {
                       },
                   }}
               >
-                  {NTList.map((Trailer) => {
+                  {FakeList.map((trailer) => {
                       return (
                           <div>
                               <SwiperSlide>
-                                  <NewTrailerCard />
+                                  <NewTrailerCard trailer={trailer} />
                               </SwiperSlide>
                           </div>
                       )

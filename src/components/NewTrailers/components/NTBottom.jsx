@@ -1,9 +1,9 @@
 import React from 'react'
 
-const NTBottom = () => {
+const NTBottom = ({name}) => {
   return (
     <div className="p-2 text-xs font-semibold">
-        <p>Title</p>
+        <p>{name}</p>
     </div>
   )
 }

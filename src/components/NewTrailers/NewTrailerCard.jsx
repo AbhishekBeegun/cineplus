@@ -2,11 +2,11 @@ import React from 'react'
 import NTTop from "./components/NTTop"
 import NTBottom from "./components/NTBottom"
 
-const NewTrailerCard = () => {
+const NewTrailerCard = ({trailer}) => {
   return (
-    <div className="h-[300px] w-[80vw] border border-emerald-500">
-        <NTTop />
-        <NTBottom/>
+    <div className="h-[200px] w-[300px]">
+        <NTTop ytId={trailer.ytId} name={trailer.name} />
+        <NTBottom name={trailer.name}/>
     </div>
   )
 }

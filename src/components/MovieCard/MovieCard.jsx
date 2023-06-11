@@ -7,7 +7,7 @@ import IDBMsml from "../IDBM/IDBMsml"
 
 const MovieCard = () => {
   return (
-    <div className="h-[300px] w-[150px] rounded-lg relative">
+    <div className="h-[250px] w-[150px] rounded-lg relative">
         <MCTop/>
         <MCBottom/>    
     </div>
