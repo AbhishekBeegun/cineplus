@@ -15,7 +15,7 @@ const FeaturedMovieCard = ({Movie}) => {
   }
   return (
     <div onClick={() => handleClick(Movie.name)}
-    className="h-[250px] rounded-xl relative">
+    className="h-[250px] lg:h-[550px] cursor-pointer rounded-xl relative">
     <IDBMsml/>
     <FMCTop logo={Movie.Logo} bgposter={Movie.bgPoster}/>
     <FMCBottom name={Movie.name}/>

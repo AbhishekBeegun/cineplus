@@ -21,7 +21,7 @@ const NowPlaying = () => {
           
           768: {
             width: 768,
-            slidesPerView: 5,
+            slidesPerView:2.5,
           },
         }}
       >
@@ -29,7 +29,9 @@ const NowPlaying = () => {
     return(
        <div>
       <SwiperSlide>
+
        <MovieCard/>
+
       </SwiperSlide>
        </div>
     )}

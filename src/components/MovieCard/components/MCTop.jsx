@@ -6,7 +6,7 @@ import TicketBtnSml from "@/components/TicketDetails/TicketBtnSml"
 
 const MCTop = () => {
   return (
-    <div className="h-[210px] w-[150px] rounded-lg relative bg-black">
+    <div className="h-[210px] lg:h-[410px] w-full rounded-lg relative bg-black">
       <IDBMsml/>
      <Image src={temppic} className="w-full h-full rounded-lg object-cover absolute opacity-70" />
      <TicketBtnSml/>

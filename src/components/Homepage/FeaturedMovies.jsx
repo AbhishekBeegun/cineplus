@@ -44,7 +44,7 @@ const FeaturedMovies = () => {
           // when window width is >= 768px
           768: {
             width: 768,
-            slidesPerView: 2,
+            slidesPerView: 0.5,
           },
         }}
       >

@@ -24,7 +24,7 @@ const PlayingLocation = () => {
     "value" : "MC-C"}
   ]
   return (
-    <div>
+    <div className="px-2">
       <h2 className="text-xl font-semibold">Showtimes</h2>
       {cinemasMU.map(cinema => (
         <div>

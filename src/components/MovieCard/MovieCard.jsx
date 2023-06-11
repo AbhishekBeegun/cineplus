@@ -1,13 +1,21 @@
 import React from 'react'
+import { useRouter } from "next/router"
 import MCTop from "./components/MCTop"
 import MCBottom from "./components/MCBottom"
-import IDBMsml from "../IDBM/IDBMsml"
 
 
 
 const MovieCard = () => {
+
+  const router = useRouter()
+
+  const handleClick = (slug) => {
+  router.push(`movie-details/op`)
+  }
   return (
-    <div className="h-[250px] rounded-lg relative">
+    <div 
+    onClick={() => handleClick("")}
+    className="h-[250px] lg:w-[250px] lg:h-[500px] rounded-lg relative">
         <MCTop/>
         <MCBottom/>    
     </div>
