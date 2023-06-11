@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       {/* navbar */}
-      <div className="">
+      <div className="bg-[#181818] text-white">
         <NavbarMobile />
         <FixedMenu />
       </div>

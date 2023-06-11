@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image"
 const LatestNewsCard = () => {
   return (
-    <div className="h-[200px] w-[95vw] relative bg-black rounded-lg flex justify-center items-center">
+    <div className="h-[200px] w-[95vw] lg:w-1/3 relative bg-black rounded-lg flex justify-center items-center">
     <img src="https://m.media-amazon.com/images/M/MV5BMTU0MWU5NTEtZDE4MS00NjcyLWIzNDgtYWFmYjkxNWViYTM5XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
      className="absolute w-full h-full rounded-xl opacity-50"/>
 

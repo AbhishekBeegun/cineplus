@@ -26,7 +26,7 @@ const FeaturedMovies = () => {
     ]
 
   return (
-    <div className="px-2 py-4">
+    <div className="px-2 py-4 lg:px-36">
 
         <p className="text-xl font-semibold py-2">Featured Movies <IoArrowForward/></p>
         <Swiper

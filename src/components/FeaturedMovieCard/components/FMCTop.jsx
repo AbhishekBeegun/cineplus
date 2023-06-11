@@ -7,7 +7,7 @@ import tempimg from "../../../../public/images/uPPwAS7fduKLTnD6Esqsaj-removebg-p
 const FMCTop = ({logo,bgposter}) => {
 
   return (
-    <div className="w-full relative h-[200px] lg:h-[450px] rounded-t-xl flex text-white">
+    <div className="w-full relative h-[200px] lg:h-[500px] rounded-t-xl flex text-white">
         {/* title LOGO + sml desc + ticket link */}
         <div className="w-1/2 z-10 h-full absolute flex flex-col bg-gradient-to-r from-black justify-evenly gap-5 items-center rounded-t-xl">
             <img

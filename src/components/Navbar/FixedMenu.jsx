@@ -4,7 +4,7 @@ import {IoPlay} from "react-icons/io5"
 const FixedMenu = () => {
 
   return (
-    <div className="flex justify-evenly items-center">
+    <div className="flex justify-evenly items-center py-4">
       <Link href={"UpgradePremium"}>
         <button className="px-4 text-white font-semibold py-1 rounded-full bg-gradient-to-r from-blue-500 via-red-500 to-yellow-500">
           Try Premium
@@ -12,7 +12,7 @@ const FixedMenu = () => {
       </Link>
 
       <Link href={"freemovies"}>
-      <button className="flex items-center gap-1 px-4 font-semibold py-1 rounded-full border border-black">
+      <button className="flex items-center gap-1 px-4 font-semibold py-1 rounded-full border border-white">
         <IoPlay />
         Free movies        
       </button>

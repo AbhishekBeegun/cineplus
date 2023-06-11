@@ -9,7 +9,7 @@ const NavbarMobile = () => {
   const [OpenSidebar, setOpenSidebar] = useState(false)
 
   return (
-    <nav className="flex justify-between items-center py-2 px-4">
+    <nav className="flex justify-between items-center py-2 px-4 ">
       
       <Sidebar OpenSidebar={OpenSidebar} setOpenSidebar={setOpenSidebar}/>
 
