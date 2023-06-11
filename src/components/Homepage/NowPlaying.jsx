@@ -12,14 +12,16 @@ const NowPlaying = () => {
 
         <p className="text-xl font-semibold py-2">Now Playing in Cinema <IoArrowForward/></p>
         <Swiper
-        spaceBetween={5}
-        slidesPerView={2}
+        spaceBetween={2}
+        slidesPerView={2.2}
         loop
         breakpoints={{
           // when window width is >= 768px
+          
+          
           768: {
             width: 768,
-            slidesPerView: 6,
+            slidesPerView: 5,
           },
         }}
       >

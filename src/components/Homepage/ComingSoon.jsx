@@ -27,12 +27,14 @@ const ComingSoon = () => {
     <div className="flex flex-col gap-5 py-2 px-2">
 
      <p className="text-xl font-semibold py-2">Coming Soon <IoArrowForward/></p>
+       <div className="flex flex-col justify-center items-center">
 
         {
             CSLIST.map( movie => (
                 <ComingSoonCard/>
             ))
         }
+      </div>
     </div>
   )
 }

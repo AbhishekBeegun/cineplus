@@ -2,7 +2,7 @@ import React from 'react'
 
 const NTBottom = ({name}) => {
   return (
-    <div className="p-2 text-xs font-semibold">
+    <div className="text-sm p-2 font-semibold">
         <p>{name}</p>
     </div>
   )

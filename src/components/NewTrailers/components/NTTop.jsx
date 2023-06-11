@@ -5,7 +5,7 @@ import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
 const NTTop = ({ytId,name}) => {
   return (
-    <div className="h-[170px] w-full">
+    <div className="w-full">
       <LiteYouTubeEmbed
        id={ytId} // Default none, id of the video or playlist
        playlist={false} // Use  true when your ID be from a playlist

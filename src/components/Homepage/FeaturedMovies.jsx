@@ -38,7 +38,7 @@ const FeaturedMovies = () => {
            }}
       loop
         spaceBetween={10}
-        slidesPerView={0.9}
+        slidesPerView={1}
   
         breakpoints={{
           // when window width is >= 768px
