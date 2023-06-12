@@ -4,6 +4,7 @@ import { useState } from "react"
 import Sidebar from "../Sidebar/Sidebar"
 import LOGO from "../../../public/images/CinePlusLogosml.png"
 import SearchBar from "../Search/SearchBar"
+import Link from "next/link"
 
 const NavbarMobile = () => {
   const [OpenSidebar, setOpenSidebar] = useState(false)
@@ -13,9 +14,9 @@ const NavbarMobile = () => {
       
       <Sidebar OpenSidebar={OpenSidebar} setOpenSidebar={setOpenSidebar}/>
 
-      <div className="">
+      <Link href={"/"} className="">
         <Image className="w-16 h-full" src={LOGO} />        
-      </div>
+      </Link>
 
       <SearchBar/>
 

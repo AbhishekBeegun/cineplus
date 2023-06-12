@@ -27,7 +27,7 @@ const PlayingLocation = () => {
     <div className="px-2">
       <h2 className="text-xl font-semibold">Showtimes</h2>
       {cinemasMU.map(cinema => (
-        <div>
+        <div className="px-4">
           <p className="bg-red-200">
             {cinema.name}
           </p>
