@@ -5,19 +5,19 @@ import MCBottom from "./components/MCBottom"
 
 
 
-const MovieCard = () => {
+const MovieCard = ({Movie}) => {
 
   const router = useRouter()
 
   const handleClick = (slug) => {
-  router.push(`movie-details/op`)
+  router.push(`movie-details/${slug}`)
   }
   return (
     <div 
-    onClick={() => handleClick("")}
+    onClick={() => handleClick(Movie.title)}
     className="h-[250px] lg:w-[250px] lg:h-[500px] rounded-lg relative">
-        <MCTop/>
-        <MCBottom/>    
+        <MCTop Poster={Movie.mainImage}/>
+        <MCBottom title={Movie.title} genre={Movie.genre}/>    
     </div>
   )
 }

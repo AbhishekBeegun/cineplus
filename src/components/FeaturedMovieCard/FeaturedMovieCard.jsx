@@ -14,11 +14,12 @@ const FeaturedMovieCard = ({Movie}) => {
     router.push(`movie-details/${slug}`)  
   }
   return (
-    <div onClick={() => handleClick(Movie.name)}
+    <div 
+    onClick={() => handleClick(Movie.title)}
     className="h-[250px] lg:h-[550px] cursor-pointer rounded-xl relative">
     <IDBMsml/>
-    <FMCTop logo={Movie.Logo} bgposter={Movie.bgPoster}/>
-    <FMCBottom name={Movie.name}/>
+    <FMCTop logo={Movie.logoImage} bgposter={Movie.mainImage}/>
+    <FMCBottom name={Movie.title} genre={Movie.genre}/>
     </div>
 
   )

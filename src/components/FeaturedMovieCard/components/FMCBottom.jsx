@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FMCBottom = ({name}) => {
+const FMCBottom = ({name,genre}) => {
   return (
     <div className="w-full h-[50px] rounded-b-xl p-2 text-sm font-semibold">
         {/* title + year + first categorie */}
@@ -8,7 +8,7 @@ const FMCBottom = ({name}) => {
 
         <div className="flex items-center gap-2">
           <p>2023</p>
-          <p>Comedy</p>
+          <p>{genre}</p>
         </div>
     </div>
   )

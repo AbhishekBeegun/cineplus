@@ -1,12 +1,12 @@
 import React from 'react'
 
-const MCBottom = () => {
+const MCBottom = ({title,genre}) => {
   return (
     <div className="text-xs font-semibold py-2">
-        <p>Oppenhimer</p>
+        <p>{title}</p>
         <div className="flex items-center gap-2">
             <p>2023</p>
-            <p>Sci Fi</p>            
+            <p>{genre}</p>            
         </div>
     </div>
   )

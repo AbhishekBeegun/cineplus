@@ -5,8 +5,8 @@ import NTBottom from "./components/NTBottom"
 const NewTrailerCard = ({trailer}) => {
   return (
     <div className="h-[250px] flex flex-col">
-        <NTTop ytId={trailer.ytId} name={trailer.name} />
-        <NTBottom name={trailer.name}/>
+        <NTTop ytId={trailer.ytid} name={trailer.title} />
+        <NTBottom name={trailer.title}/>
     </div>
   )
 }

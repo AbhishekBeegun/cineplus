@@ -5,8 +5,9 @@ import 'swiper/css';
 import {IoArrowForward} from "react-icons/io5"
 
 
-const NowPlaying = () => {
-    const NPLIST = [1,2,3,4,5,6,7,8,9,10]
+const NowPlaying = ({PC}) => {
+
+
   return (
     <div className="px-2 py-2 lg:px-36">
 
@@ -25,12 +26,12 @@ const NowPlaying = () => {
           },
         }}
       >
-  {NPLIST.map( (Movie) => {
+  {PC && PC.map( (Movie) => {
     return(
-       <div>
+       <div key={Movie.slug}>
       <SwiperSlide>
 
-       <MovieCard/>
+       <MovieCard Movie={Movie}/>
 
       </SwiperSlide>
        </div>
